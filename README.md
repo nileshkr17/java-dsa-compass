@@ -41,7 +41,8 @@ Each topic includes:
 
 ## 🌐 Live Preview
 
-> Coming soon… *(Deploy to Vercel, Netlify, or GitHub Pages)*
+> [![Netlify Status](https://api.netlify.com/api/v1/badges/0a8faa00-6cbd-4eb2-a172-6df3abf83833/deploy-status)](https://app.netlify.com/sites/melodious-haupia-c04a8a/deploys)
+
 
 ---
 
