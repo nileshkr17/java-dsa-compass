@@ -4,9 +4,22 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/AuthContext";
 import { ThemeToggle } from "./ThemeToggle";
 import { SearchBar } from "./SearchBar";
+import { useState } from "react";
+import { Topic } from "@/contexts/ProgressContext";
+import { toast } from "@/components/ui/sonner";
 
 export const Header = () => {
   const { user, signOut } = useAuth();
+  const [searchResults, setSearchResults] = useState<Topic[]>([]);
+  
+  const handleSearch = (results: Topic[]) => {
+    setSearchResults(results);
+    if (results.length > 0) {
+      toast.success(`Found ${results.length} topics matching your search`);
+    } else if (results.length === 0) {
+      toast.info("No topics found matching your search");
+    }
+  };
   
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background">
@@ -16,7 +29,7 @@ export const Header = () => {
         </Link>
         <div className="flex items-center gap-4">
           <div className="hidden md:flex">
-            <SearchBar />
+            <SearchBar onSearch={handleSearch} />
           </div>
           <ThemeToggle />
           {user ? (
