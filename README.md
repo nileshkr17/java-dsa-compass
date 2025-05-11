@@ -6,6 +6,9 @@
 Welcome to the **Java DSA Roadmap** – a structured and interactive platform designed to help you systematically learn and track your progress through core DSA concepts in Java.
 
 ---
+## Want to Contribute?
+If you are interested in contributing to this project, please check out the [Contributing Guidelines](CONTRIBUTING.md) for more information.
+---
 
 ## 🚀 Features
 
