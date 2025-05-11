@@ -1,35 +1,40 @@
 
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { useAuth } from "@/contexts/AuthContext";
 import { ThemeToggle } from "./ThemeToggle";
-import { useProgress } from "@/contexts/ProgressContext";
+import { SearchBar } from "./SearchBar";
 
-export function Header() {
-  const { completionPercentage } = useProgress();
+export const Header = () => {
+  const { user, signOut } = useAuth();
   
   return (
-    <header className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur-md">
-      <div className="flex h-16 items-center justify-between px-4 md:px-6">
-        <div className="flex items-center gap-2">
-          <span className="font-bold text-lg md:text-xl inline-flex items-center">
-            <span className="text-java-dark dark:text-java-light">Java</span>
-            <span className="ml-1">DSA Roadmap</span>
-          </span>
-        </div>
-        
+    <header className="sticky top-0 z-40 w-full border-b bg-background">
+      <div className="container flex items-center justify-between h-16 px-4 md:px-6">
+        <Link to="/" className="flex items-center gap-2">
+          <span className="text-xl font-bold">Java DSA Roadmap</span>
+        </Link>
         <div className="flex items-center gap-4">
-          <div className="hidden md:flex items-center">
-            <div className="text-muted-foreground text-sm font-medium">
-              Progress: {completionPercentage}% complete
-            </div>
-            <div className="ml-2 w-32 h-2 bg-muted rounded-full">
-              <div 
-                className="h-full bg-secondary rounded-full transition-all duration-500 ease-out"
-                style={{ width: `${completionPercentage}%` }}
-              />
-            </div>
+          <div className="hidden md:flex">
+            <SearchBar />
           </div>
           <ThemeToggle />
+          {user ? (
+            <div className="flex items-center gap-2">
+              <Button variant="outline" size="sm" asChild>
+                <Link to="/dashboard">Dashboard</Link>
+              </Button>
+              <Button variant="outline" size="sm" onClick={() => signOut()}>
+                Sign Out
+              </Button>
+            </div>
+          ) : (
+            <Button size="sm" asChild>
+              <Link to="/auth/login">Sign In</Link>
+            </Button>
+          )}
         </div>
       </div>
     </header>
   );
-}
+};
