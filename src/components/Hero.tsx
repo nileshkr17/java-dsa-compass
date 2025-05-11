@@ -30,7 +30,7 @@ export function Hero() {
             </Link>
             <Button asChild variant="outline">
               <a 
-                href="https://in.linkedin.com/in/nileshkr17" 
+                href="https://github.com/nileshkr17/Java-DSA-roadmap" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-8"
