@@ -31,7 +31,7 @@ export const topics: Topic[] = [
     title: "Arrays Basics",
     description: "Learn about array creation, initialization, and basic operations.",
     category: "Arrays",
-    link: "https://github.com/username/java-dsa-roadmap/arrays",
+    link: "https://github.com/nileshkr17/Java-DSA-roadmap/blob/main/Day1_Arrays/Arrays.md",
     difficulty: "beginner"
   },
   {
@@ -65,7 +65,7 @@ export const topics: Topic[] = [
     title: "Singly Linked Lists",
     description: "Implementation and operations on singly linked lists.",
     category: "Linked Lists",
-    link: "https://github.com/username/java-dsa-roadmap/linkedlist/singly",
+    link: "https://github.com/nileshkr17/Java-DSA-roadmap/blob/main/Day3_LinkedLists/LinkedLists.mdy",
     difficulty: "beginner"
   },
   {
@@ -73,7 +73,7 @@ export const topics: Topic[] = [
     title: "Doubly Linked Lists",
     description: "Implementation and operations on doubly linked lists.",
     category: "Linked Lists",
-    link: "https://github.com/username/java-dsa-roadmap/linkedlist/doubly",
+    link: "https://github.com/nileshkr17/Java-DSA-roadmap/blob/main/Day3_LinkedLists/LinkedLists.md",
     difficulty: "intermediate"
   },
   {
@@ -81,7 +81,7 @@ export const topics: Topic[] = [
     title: "Circular Linked Lists",
     description: "Implementation and operations on circular linked lists.",
     category: "Linked Lists",
-    link: "https://github.com/username/java-dsa-roadmap/linkedlist/circular",
+    link: "https://github.com/nileshkr17/Java-DSA-roadmap/blob/main/Day3_LinkedLists/LinkedLists.md",
     difficulty: "intermediate"
   },
   
@@ -91,7 +91,7 @@ export const topics: Topic[] = [
     title: "Stack Implementation",
     description: "Implementation of stack data structure using arrays and linked lists.",
     category: "Stacks & Queues",
-    link: "https://github.com/username/java-dsa-roadmap/stack",
+    link: "https://github.com/nileshkr17/Java-DSA-roadmap/blob/main/Day4_Stacks/Stacks.md",
     difficulty: "beginner"
   },
   {

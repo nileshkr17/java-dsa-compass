@@ -1,73 +1,119 @@
-# Welcome to your Lovable project
 
-## Project info
+# 📘 Java DSA Roadmap – Frontend
 
-**URL**: https://lovable.dev/projects/249ed9df-8c8a-4cc4-8ca8-0cf608ba0669
+**Your one-stop checkpoint to master Data Structures and Algorithms (DSA) in Java.**
 
-## How can I edit this code?
+Welcome to the **Java DSA Roadmap** – a structured and interactive platform designed to help you systematically learn and track your progress through core DSA concepts in Java.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/249ed9df-8c8a-4cc4-8ca8-0cf608ba0669) and start prompting.
+- ✅ **Progress Tracking** – Mark topics as complete and save your progress locally.
+- 🌗 **Dark & Light Theme Support** – Toggle between themes, with preference stored.
+- 🗂 **Organized by Category** – DSA topics grouped into categories like Arrays, Trees, Graphs, etc.
+- 🔍 **Search Functionality** – Easily find topics or keywords.
+- 📌 **Bookmarking (WIP)** – Save difficult or favorite topics for quick access.
+- 📈 **Progress Analytics (Coming Soon)** – Visual insights into your learning journey.
+- 🔐 **User Login (Coming Soon)** – Sync your progress across devices via Supabase.
+- 📱 **Mobile-Responsive Design** – Optimized for mobile, tablet, and desktop.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 📂 DSA Categories
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Arrays
+- Linked Lists
+- Stacks & Queues
+- Trees
+- Graphs
+- Hash Tables
+- Heaps
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Each topic includes:
+- Title
+- Short Description
+- Difficulty Level (Beginner, Intermediate, Advanced)
+- Completion Toggle
+- “Learn More” Button (Link to notes/resources)
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🌐 Live Preview
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+> Coming soon… *(Deploy to Vercel, Netlify, or GitHub Pages)*
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## 🛠 Tech Stack
+
+- **Framework**: React
+- **Styling**: Tailwind CSS
+- **State Persistence**: localStorage (Supabase coming soon)
+- **Authentication**: Supabase (for future backend support)
+- **Deployment**: Vercel / Netlify (recommended)
+
+---
+
+## 🧑‍💻 Getting Started
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/java-dsa-roadmap-frontend.git
+cd java-dsa-roadmap-frontend
+npm install
 npm run dev
+````
+
+> Make sure you have **Node.js ≥ 16** installed.
+
+---
+
+## 📦 Folder Structure
+
+```
+src/
+├── components/      // Reusable UI components
+├── data/            // DSA topics and categories
+├── pages/           // Main route views
+├── utils/           // Helper functions
+├── assets/          // Images and icons
+└── App.jsx          // Root component
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ✨ Upcoming Features
 
-**Use GitHub Codespaces**
+* [ ] User authentication (Supabase)
+* [ ] Admin dashboard for topic management
+* [ ] Study plan generator
+* [ ] Glossary of DSA terms
+* [ ] Data export/import (JSON)
+* [ ] Gamification (XP, badges, streaks)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## ❤️ About the Creator
 
-This project is built with:
+Built with love to help students, interviewees, and developers **truly master DSA in Java** through consistency and checkpoints.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+> Contributions, suggestions, and stars are always welcome!
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/249ed9df-8c8a-4cc4-8ca8-0cf608ba0669) and click on Share -> Publish.
+## 📎 Useful Resources
 
-## Can I connect a custom domain to my Lovable project?
+* [LeetCode](https://leetcode.com/)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/)
+* [Java Docs](https://docs.oracle.com/en/java/)
+* [GitHub Repo](https://github.com/nileshkr17/Java-DSA-roadmap)
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📜 License
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+MIT License © 2025
+Java DSA Roadmap by \[Nileshkr17\] is licensed under [MIT](https://opensource.org/licenses/MIT).
+

@@ -30,7 +30,7 @@ export function Hero() {
             </Link>
             <Button asChild variant="outline">
               <a 
-                href="https://github.com" 
+                href="https://in.linkedin.com/in/nileshkr17" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="px-8"

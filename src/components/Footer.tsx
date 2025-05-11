@@ -49,7 +49,13 @@ export function Footer() {
         </div>
         
         <div className="mt-8 border-t pt-6 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Java DSA Roadmap. All rights reserved.</p>
+          <p>© {new Date().getFullYear()}
+            
+            <a href="https://in.linkedin.com/in/nileshkr17" className="text-muted-foreground hover:text-foreground transition-colors" target="_blank" rel="noopener noreferrer">
+              Nileshkr17
+            </a> .
+             
+             All rights reserved.</p>
         </div>
       </div>
     </footer>
